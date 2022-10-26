@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #222222;
+    color: white;
+    padding-top: 54px;
+    padding-bottom: 179px;
+}
+
+.about-us > h1 {
+    font-family: 'Courier New';
+    font-size: 45;
+}
+
+.about-us > p {
+    font-family: Verdana;
+    font-size: 14;
+}
+
+.about-us > a {
+    font-family: Verdana;
+    font-size: 14;
+    text-decoration: none;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    
+}
+
+.about-us {
+    width: 254px;  
+    margin-left: 126px;
+ 
+}
+
+.features-list > li {
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-list > li::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    padding-bottom: 34px;
+    background-repeat: no-repeat;
+}
+.feature-made-in-russia::before {background-image: url("../img/advantage-icon-1%201.png");}
+.feature-food::before {background-image: url("../img/advantage-icon-2%201.png");}
+.feature-pilots::before {background-image: url("../img/advantage-icon-3%201.png");}
+.feature-moon-rover::before {background-image: url("../img/advantage-icon-4%201.png");}
+
+
+.features-list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.site-menu {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 62px;
+}
+
+.site-menu > li {
+    margin-right: 30px;
+}
+
+.contacts-menu {
+    display: flex;
+    
+}
+
+.contacts-menu > li {
+    margin-left: 24px;
+}
+
+h1 {
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    margin-bottom: 54px;
+}
+
+.site-menu > li > a {
+    font-family: Verdana;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-out;
+}
+
+.contacts-menu > li > a {
+    color: white;
+    font-family: Verdana;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn {
+    position: relative;
+    color: #000000;
+}
+
+.btn-yellow {
+    background-color: #FFCB06;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-right: 100px;
+    padding-left: 38px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-out;
+}
+
+.features {
+    background-color: #131313;
+    color: #D4D4D4;
+    font-family: Verdana;
+    font-size: 14px;
+    padding-top: 85px;
+    padding-bottom: 79px;
+}
+
+.moon-vacation .container{
+    display: flex;
+}
+
+.about-us{
+    position: relative;
+}
+
+.about-us::after{
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/moon-rocket 1.png");
+    width: 438px;
+    height: 438px;
+    top: -100px;
+    left: 394px;
+}
+
+.btn::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background-image: url("../img/right-arrow-dark\ 1.png");
+    width: 19px;
+    height: 16px;
+    top: 18px;
+    right: 22px;
+}
+
+h3 {
+    font-family: 'Courier New';
+    font-size: 24px;
+}
+
+.lead {
+    font-family: 'Courier New';
+    font-size: 24px;
+    padding-bottom: 44px;
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+}
+
+.moon-vacation > .container > .right-column  {
+    width: 443px;
+    font-family: Verdana;
+    font-size: 14px;
+    
+}
+
+
+.recommendations > .container > .right-column {
+    width: 443px;
+    font-family: Verdana;
+    font-size: 14px;
+    margin-bottom: 126px;
+}
+
+.recommendations > .container > .left-column {
+    width: 443px;
+    font-family: Verdana;
+    font-size: 14px;
+    margin-bottom: 126px;
+}
+
+.left-column {
+    width: 450px;
+}
+
+
+.site-footer {
+    background-color: #131313;
+    color: white;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.footer-columns-container {
+    display: flex;
+}
+
+ .footer-columns-container > .left-column{
+    width: 162px;
+    padding-top: 60px;
+} 
+
+.footer-columns-container > .right-column{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-menu > li {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.copyrights {
+    color: #555555;
+    margin-top: 110px;
+    padding-bottom: 88px;
+}
+
+.company-title {
+    margin-left: 15px;
+}
+
+.footer-submenu {
+    display: flex;
+    flex-grow: 1;
+    margin-top: 57px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 88px;
+}
+
+.footer-submenu-title {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #D4D4D4;
+    width: 80%;
+    transition: color 0.3s ease-out;
+}
+.footer-submenu-title::after {
+    content: "";
+    padding-top: 12px;
+    border-bottom: 1px solid #555555;
+}
+
+.footer-submenu > li > a {
+    text-decoration: none;
+    color: #888888;
+    transform: color 0.2s ease-out;
+}
+
+.recommendations-list > li {
+    padding: 23px 0;
+    list-style: outside;
+    margin-left: 15px;
+    font-family: Verdana;
+    font-size: 14px;
+}
+.recommendations-list > li::marker {
+    color: #FFCB06;
+    background: #FFCB06;
+    font-size: 16px;
+
+}
+
+.moon-vacation > .container > .right-column > p {
+    padding-bottom: 39px;
+}
+
+.site-footer > .container > .left-column {
+    flex: 1;
+}
+
+.icon-mail::after {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/mail-icon 1.png");
+    width: 17px;
+    height: 12px;
+
+}
+
+.icon-phone::after {
+    content: "";
+    display: inline-block;
+    background-image: url("../img/phone-icon 1.png");
+    width: 17px;
+    height: 17px;
+
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.site-menu > li > a:hover {
+    color: rgba(212, 212, 212, 0.5);
+}
+
+.footer-submenu-title:hover {
+    color: rgba(212, 212, 212, 0.5);
+}
+
+.footer-submenu > li > a:hover {
+    color: rgba(136, 136, 136, 0.5);
+}
+
+.btn-yellow:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
